@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NuDoc.Web.Tests", "test\NuDoc.Web.Tests\NuDoc.Web.Tests.kproj", "{1419AC4E-35CB-49A2-8736-2D404F6CA130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{BF42F015-FB8A-4A62-9B52-DA13B8AAD76B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		build.cmd = build.cmd
+		build.sh = build.sh
+		global.json = global.json
+		LICENSE = LICENSE
+		makefile.shade = makefile.shade
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NuDoc.Web", "src\NuDoc.Web\NuDoc.Web.kproj", "{D0A676C5-E771-4C06-8AA7-874C6EA8010C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1419AC4E-35CB-49A2-8736-2D404F6CA130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1419AC4E-35CB-49A2-8736-2D404F6CA130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1419AC4E-35CB-49A2-8736-2D404F6CA130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1419AC4E-35CB-49A2-8736-2D404F6CA130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A676C5-E771-4C06-8AA7-874C6EA8010C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A676C5-E771-4C06-8AA7-874C6EA8010C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A676C5-E771-4C06-8AA7-874C6EA8010C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A676C5-E771-4C06-8AA7-874C6EA8010C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
