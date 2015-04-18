@@ -1,0 +1,17 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+#Windows style newlines with no newline ending every file
+[*]
+end_of_line = crlf
+insert_final_newline = false
+
+# correct indentation
+indent_style = tab
+indent_size = 3
+
+# Set default charset
+[*.{js,cs,json}]
+charset = utf-8
