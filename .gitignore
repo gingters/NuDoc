@@ -24,6 +24,6 @@ nuget.exe
 *.ncrunchsolution
 *.*sdf
 *.ipch
-
+*.lock.json
 **/node_modules/
 **/bower_components/
