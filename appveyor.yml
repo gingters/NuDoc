@@ -1,0 +1,3 @@
+version: 0.9.0-{branch}-{build}
+build_script:
+- build_appvoyer.cmd
